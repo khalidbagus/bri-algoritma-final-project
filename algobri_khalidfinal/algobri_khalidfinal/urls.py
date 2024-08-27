@@ -16,7 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from khalidfinal_model import views
 
+urlpatterns = [
+    path('candlestick-chart/', views.candlestick_chart_view, name='candlestick_chart'),
+]
+"""
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+"""
