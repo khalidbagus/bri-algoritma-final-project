@@ -1,1 +1,1 @@
-Testing check, first commit
+Initialize sqlite -> database model sqlalchemy -> makemigrations, migrate
